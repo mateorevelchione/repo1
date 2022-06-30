@@ -7,6 +7,8 @@
 	<link rel="shortcut icon" href="img/favicon.png">
 	<!-- mi css -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- wow js -->
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 
@@ -14,7 +16,7 @@
 <div class="contenedor">
 	<div id="nav">
 	<nav class="nav">
-		<h1>POSTDATA</h1>
+		<h1 class="wow pulse" data-wow-duration="1s">POSTDATA</h1>
 	
 		<a href="index.html">
 			<img src="img/logo.svg" alt="logo de POSTDATA">
@@ -100,18 +102,23 @@
 	<footer id="footer" class="pie">	
 		<h3>Seguinos en nuestras redes</h3>
 		<a href="https://www.facebook.com" target="_blank">
-			<img class="pie__icon--sm" src="img/facebook.png" alt="logo de facebook">
+			<img class="pie__icon--sm wow fadeIn"data-wow-duration="1s" data-wow-delay="0s" src="img/facebook.png" alt="logo de facebook">
 		</a>
 		<a href="https://www.instagram.com/" target="_blank">
-			<img class="pie__icon--sm" src="img/instagram.png" alt="logo de instagram">
+			<img class="pie__icon--sm wow fadeIn"data-wow-duration="1s" data-wow-delay="0s" src="img/instagram.png" alt="logo de instagram">
 		</a>
-			<img class="pie__icon--sm" src="img/telefono.png" alt="logo de whatsapp"> 
+			<img class="pie__icon--sm wow fadeIn"data-wow-duration="1s" data-wow-delay="0s" src="img/telefono.png" alt="logo de whatsapp"> 
 		<h4 class="text-regular">011 5858-2444</h4>
-			<img class="pie__icon--sm" src="img/reloj.png" alt="imagen de un reloj"> 
+			<img class="pie__icon--sm wow fadeIn"data-wow-duration="1s" data-wow-delay="0s" src="img/reloj.png" alt="imagen de un reloj"> 
 		<h4 class="text-regular">Lunes a sabados 9:30 a 13:00 y 15:30 a 19:00</h4>
 	</footer>
 	<!-- ends footer -->
 </div>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 
 </body>
 </html>
