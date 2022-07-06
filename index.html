@@ -5,15 +5,49 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>POSTDATA</title>
 	<link rel="shortcut icon" href="img/favicon.png">
-	<!-- mi css -->
-	<link rel="stylesheet" href="css/style.css">
+	
 	<!-- wow js -->
 	<link rel="stylesheet" href="css/animate.css">
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- mi css -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
-<div class="contenedor">
+
+<!-- inicia nav -->
+<nav class="nav navbar navbar-expand-lg  bg-linear-gradient textBold">
+      <div class="container-fluid">
+      	<h1 class="wow pulse" data-wow-duration="1s">POSTDATA</h1>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.svg" alt="Logo de POSTDATA">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">         
+            <li class="nav-item">
+              <a class="nav-link  " aria-current="page" href= "views/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="views/promociones.html">Promociones</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="views/proveedores.html">Proveedores</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="views/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- ends nav -->
+
+<!--inicia nav
+ <div class="contenedor">
 	<div id="nav">
 	<nav class="nav">
 		<h1 class="wow pulse" data-wow-duration="1s">POSTDATA</h1>
@@ -38,27 +72,29 @@
 		</ul>
 	</nav>
 	</div>
-	
-	<!-- ends nav -->
+	ends nav -->
 
-	<div id="header">
-		<header  class="header">
+	<div class="container-fluid">
+		<header class="header w-100">
 			<img src="img/header.jpg" alt="distintas prendas colgadas">
 		</header>
 	</div>
 	<!-- ends header -->
 
-	<main id="nosotros">
+	<div class="container-fluid">
+	<main class="col-12">
 		<section>  
-			<h2 class="section__titulo">Nosotros</h2>
+			<h2 class="section__titulo text-center">Nosotros</h2>
 			<p class="text-light nosotros__section">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores id, dicta quibusdam amet vel reprehenderit atque dolorum, incidunt earum! A temporibus facilis atque facere eligendi provident, cumque! Autem, commodi, corrupti!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores id, dicta quibusdam amet vel reprehenderit atque dolorum, incidunt earum! A temporibus facilis atque facere eligendi provident, cumque! Autem, commodi, corrupti!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores id, dicta quibusdam amet vel reprehenderit atque dolorum, incidunt earum! A temporibus facilis atque facere eligendi provident, cumque! Autem, commodi, corrupti!</p>
 		</section>
 		<!-- ends nosotros -->
 	</main>	
+	</div>
 	
-		<div id="promociones">
-			<section>
-			<h2 class="section__titulo">Promociones</h2>
+		<div class="container-fluid">
+			<div class="row">
+			<section class="col-sm-12 col-md-8 col-lg-8">
+			<h2 class="section__titulo text-center">Promociones</h2>
 			<table class="promociones__section" border="3px" cellpadding="5px" cellspacing="5px">
 				<tr>
 					<th>Forma de pago</th>
@@ -86,20 +122,19 @@
 					<td>10% OFF</td>
 				</tr>
 			</table>
-		</div>
+			</section>
 		
-	
-		<div class="mapa__section">
-		<section>
-			<h3 class="section__titulo">Como llegar</h3>
+			<section class="mapa__section container-fluid col-sm-12 col-md-4 col-lg-4">
+			<h3 class="section__titulo text-center">Como llegar</h3>
 			<iframe id="comollegar" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.509067025716!2d-58.6991951!3d-34.6670993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf876cb84863%3A0xf667522b2d0f4ef8!2sItalia%201262%2C%20B1718FTN%20San%20Antonio%20de%20Padua%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1654144441470!5m2!1ses!2sar" width="100%" height="435" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</section>
-		<!-- ends map -->
+			</section>
 		</div>
+		<!-- ends map -->
+	</div>
 	<!-- ends div -->
 		
 	
-	<footer id="footer" class="pie">	
+	<footer class="pie">	
 		<h3>Seguinos en nuestras redes</h3>
 		<a href="https://www.facebook.com" target="_blank">
 			<img class="pie__icon--sm wow fadeIn"data-wow-duration="1s" data-wow-delay="0s" src="img/facebook.png" alt="logo de facebook">
@@ -113,12 +148,14 @@
 		<h4 class="text-regular">Lunes a sabados 9:30 a 13:00 y 15:30 a 19:00</h4>
 	</footer>
 	<!-- ends footer -->
-</div>
 
 <script src="js/wow.min.js"></script>
 <script>
     new WOW().init();
 </script>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

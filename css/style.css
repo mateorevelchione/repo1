@@ -17,7 +17,7 @@ h1{
 
 h2{
 	color:#C5A880;
-	font-size: 4.5rem;
+	font-size: 4rem;
 }
 
 h3{
@@ -47,7 +47,7 @@ body{
 /*  MOBILE FIRST  */
 
 .contenedor{
-		display: grid;
+		/*display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
 		grid-template-areas: 
@@ -56,10 +56,10 @@ body{
 		"nosotros" 
 		"promo" 
 		"map" 
-		"footer";
+		"footer";*/
 }
 
-#nav{
+/*#nav{
 	grid-area: nav;
 }
 
@@ -81,7 +81,7 @@ body{
 
 #footer{
 	grid-area: footer;
-}
+}*/
 
 .nav{
 		background-color:rgba(83, 46, 28, 0.6);
@@ -91,22 +91,22 @@ body{
 		width: 100%;
 		margin: auto;
 		padding: 10px 10px;
-		display: flex;
+		/*display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: center;*/
 		}
 		
-}
+
 
 	.nav a img{
-		margin: 15px;
-		width: 50px;
+		margin: 35px;
+		width: 60px;
 		height: auto;
 	}
 
 	.nav ul{
-		display: flex;
+		/*display: flex;*/
 	}
 	
 		.nav ul li{
@@ -132,6 +132,7 @@ body{
 			font-size: 2.2rem;
 			background-size: 100% 2px;
 		}
+  }
 
 
 /* clases de texto */
@@ -196,10 +197,10 @@ body{
 }
 
 .section__titulo{
-		display: flex;
+		/*display: flex;
 		flex-direction: column;
 		justify-content: center;
-		text-align: center;
+		text-align: center;*/
 		width: 90%;
 		height: auto;
 		margin: 40px auto;
@@ -219,10 +220,10 @@ body{
 		/*overflow-x: hidden;
 		overflow-y: auto;*/
 		box-sizing: border-box;
-		display: flex;
+		/*display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: center;*/
 }
 
 .promociones__section{
@@ -248,9 +249,9 @@ body{
 		padding: 20px 30px;
 		border: double 5px rgba(197, 168, 128,0.9);
 		box-sizing: border-box;
-		display: flex;
+		/*display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: center;*/
 }
 
 .contacto__section{
@@ -269,9 +270,9 @@ body{
 
 .mapa__section{
 		text-align: center;
-		display: flex;
+		/*display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: center;*/
 }
 
 .proveedores__icon{
@@ -305,21 +306,21 @@ body{
 
 @media (min-width: 768px){
 	.contenedor{
-		grid-template-columns: 70vw 30vw;
+		/*grid-template-columns: 70vw 30vw;
 		grid-template-rows: auto;
 		grid-template-areas:
 		"nav nav" 
 		"header header" 
 		"nosotros nosotros" 
 		"promo map" 
-		"footer footer";
+		"footer footer";*/
 	}
 
 	.pie{
-
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+		padding: 20px;
 	}
 
 	.pie h3{
@@ -339,7 +340,7 @@ body{
 
 @media (min-width: 1024px){
 	.contenedor{
-		display: grid;
+		/*display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: auto;
 		grid-template-areas:
@@ -347,18 +348,18 @@ body{
 		"header header header" 
 		"nosotros nosotros nosotros" 
 		"promo promo map" 
-		"footer footer footer";
+		"footer footer footer";*/
 	}
 
 	.nav{
-		flex-direction: row;
-		justify-content: space-between;
+		/*flex-direction: row;
+		justify-content: space-between;*/
 	}
 
 	.nosotros__section{
-		flex-direction: row;
+		/*flex-direction: row;
 		justify-content: center;
-		justify-content: center;
+		justify-content: center;*/
 
 	}
 
@@ -367,9 +368,9 @@ body{
 @media (min-width: 1200px){
 
 	.nav{
-		flex-direction: column;
+		/*flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: center;*/
 	}
 
 	.promociones__section{
@@ -378,7 +379,7 @@ body{
 	}
 
 	.pie{
-		height: 150%;
+		padding: 20px;
 	}
 
 	.pie h3{
