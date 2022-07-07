@@ -5,36 +5,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>POSTDATA</title>
 	<link rel="shortcut icon" href="../img/favicon.png">
-	<!-- mi css -->
+	<!-- wow js -->
+	<link rel="stylesheet" href="../css/animate.css">
+	<<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  	<!-- mi css -->
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<nav>
-		<h1>POSTDATA</h1>
-		<a href="../index.html">
-			<img src="../img/logo.png" alt="logo de POSTDATA">
-		</a>
-		<ul>
-			<li>
-				<a href="nosotros.html">Nosotros</a>
-			</li>
-			<li>
-				<a href="promociones.html">Promociones</a>
-			</li>
-			<li>
-				<a href="proveedores.html">Proveedores</a>
-			</li>
-			<li>
-				<a href="contacto.html">Contacto</a>
-			</li>
-		</ul>
-	</nav>
-	<!-- ends nav -->
-	<header>
-		<img src="../img/header.jpg" alt="remeras varias de color liso">
-		<h2 class="text-center section__titulo">Proveedores</h2>
-	</header>
+	<nav class="nav navbar navbar-expand-lg bg-linear-gradient textBold">
+      <div class="container-fluid">
+      	<h1 class="wow pulse" data-wow-duration="1s">POSTDATA</h1>
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo.svg" alt="Logo de POSTDATA">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">         
+            <li class="nav-item">
+              <a class="nav-link  " aria-current="page" href= "../views/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="../views/promociones.html">Promociones</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="../views/proveedores.html">Proveedores</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="../views/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- ends nav -->
+
+	<div class="container-fluid">
+		<header class="header w-100">
+			<img src="../img/header.jpg" alt="distintas prendas colgadas">
+		</header>
+	</div>
 	<!-- ends header -->
+
 	<main>
 		<section class="proveedores__section">
 			<h3>Waiting</h3>
@@ -56,19 +70,28 @@
 
 		</section>
 	</main>
+	
 	<footer class="pie">
 		<h3>Seguinos en nuestras redes</h3>
 		<a href="https://www.facebook.com" target="_blank">
-			<img src="../img/facebook.png" alt="logo de facebook" class="pie__icon--sm">
+			<img src="../img/facebook.png" alt="logo de facebook" class="pie__icon--sm wow fadeIn">
 		</a>
 		<a href="https://www.instagram.com/" target="_blank">
-			<img src="../img/instagram.png" alt="logo de instagram" class="pie__icon--sm">
+			<img src="../img/instagram.png" alt="logo de instagram" class="pie__icon--sm wow fadeIn">
 		</a>
-		<img src="../img/telefono.png" alt="logo de whatsapp" class="pie__icon--sm"> 
+		<img src="../img/telefono.png" alt="logo de whatsapp" class="pie__icon--sm wow fadeIn"> 
 		<h4 class="text-regular">011 5858-2444</h4>
-		<img src="../img/reloj.png" alt="imagen de un reloj" class="pie__icon--sm"> 
+		<img src="../img/reloj.png" alt="imagen de un reloj" class="pie__icon--sm wow fadeIn"> 
 		<h4 class="text-regular">Lunes a sabados 9:30 a 13:00 y 15:30 a 19:00</h4>
 	</footer>
+
+<script src="../js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
