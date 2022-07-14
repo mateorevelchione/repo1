@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+	font-family: $mainFont; 
+}
+
+h1,
+h2,
+h3{
+	color: $secondaryColor;
+}
+
+h1{
+	font-size: $textXl;
+	text-align: center;
+}
+
+h2{
+	font-size: $textLg;
+}
+
+h3{
+	font-size: $textMd;
+}
+
+h4{
+	font-size: $textSm;
+	color: $white;
+}
+
+body{
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
