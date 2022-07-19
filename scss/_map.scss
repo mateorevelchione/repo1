@@ -1,5 +1,5 @@
 .mapa__section{
-		text-align: center;
+		text-align: map-get($map:$posicion, $key:'uno');
 		/*display: flex;
 		flex-direction: column;
 		align-items: center;*/

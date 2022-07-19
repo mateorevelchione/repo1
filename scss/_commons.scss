@@ -9,28 +9,21 @@ html{
 	font-family: $mainFont; 
 }
 
-h1,
-h2,
-h3{
-	color: $secondaryColor;
-}
-
 h1{
-	font-size: $textXl;
+	@include titulos($textXl, $secondaryColor);
 	text-align: center;
 }
 
 h2{
-	font-size: $textLg;
+	@include titulos($textLg, $secondaryColor);
 }
 
 h3{
-	font-size: $textMd;
+	@include titulos($textMd, $secondaryColor);
 }
 
 h4{
-	font-size: $textSm;
-	color: $white;
+	@include titulos($textSm, $white);
 }
 
 body{
