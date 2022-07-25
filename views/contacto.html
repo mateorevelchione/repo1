@@ -58,24 +58,24 @@
 	<!-- ends header -->
 
 	<main>
-		<section class="contacto__section">
+		<section class="col-sm-12 col-md-8 col-lg-8 contacto__section">
 			<form action="envio.php">
 				<fieldset>
-					<legend>Informacion personal</legend>
+					<legend class="legend">Informacion personal</legend>
 					<label for="nombre">Nombre:</label>
 					<input type="text" name="nombre" placeholder="Mateo Gomez">
 					<label for="email">Email:</label>
 					<input type="email" name="email" placeholder="mateo@mail.com">
 				</fieldset>
 				<fieldset>
-					<legend>Seccion</legend>
+					<legend class="legend">Seccion</legend>
 					<label for="ropa de hombre">Ropa de hombre</label>	<input type="checkbox" id="ropa de hombre" value="ropa de hombre">
 					<div></div>
 					<label for="ropa de mujer">Ropa de mujer</label>
 					<input type="checkbox" id="ropa de mujer" value="ropa de mujer">
 				</fieldset>
 				<fieldset> 
-					<legend>Envio</legend>
+					<legend class="legend">Envio</legend>
 					<label for="local">Retiro en el local</label>
 					<input type="radio" id="local" value="local" name="envio">
 					<div></div>
@@ -89,9 +89,9 @@
 						<option value="interior">Interior del pais</option>	
 					</select>
 				</fieldset>
-				<label for="mensaje">Deje su mensaje</label>
+				<label class="legend" for="mensaje">Deje su mensaje</label>
 				<div></div>
-				<textarea name="" id="mensaje" cols="120" rows="10" placeholder="Ingrese su pedido o consulta"></textarea>
+				<textarea name="" id="mensaje" cols="60" rows="5" placeholder="Ingrese su pedido o consulta"></textarea>
 				<div></div>
 				<input type="reset" name="Cancelar">
 				<input type="submit" name="Enviar">
