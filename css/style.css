@@ -39,9 +39,6 @@
   padding: 10px 20px;
   text-align: center; }
 
-.proveedores__section {
-  width: 30%; }
-
 * {
   margin: 0;
   padding: 0;
@@ -118,8 +115,8 @@ body {
   text-align: center; }
 
 .proveedores__icon {
-  width: 200px;
-  margin: 50px 50px; }
+  width: 40%;
+  min-width: 50px; }
 
 .contacto__section {
   color: #E6E6E6;
