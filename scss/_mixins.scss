@@ -1,4 +1,4 @@
-// extends
+
 
 .nosotros__section {
   background-color: $mainColor;
@@ -24,19 +24,19 @@
 
 .proveedores__section {
   @extend .nosotros__section;
-  width: 50%;
+  width: 30%;
 
 
 }
 
-//mixins
+
 
 @mixin titulos($size, $color){
   font-size: $size;
   color: $color;
 }
 
-//maps
+
 $posicion:(
     'uno': center,
     'dos': left,

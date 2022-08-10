@@ -1,4 +1,4 @@
-//nesting - anidación
+
 .nav{
 		background-color:$mainColor;
 		position: relative;
@@ -39,9 +39,10 @@
 	}
 
 .header{
+
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
 		width: 100vw;
+
 }

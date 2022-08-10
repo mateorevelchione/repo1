@@ -26,6 +26,12 @@ h4{
 	@include titulos($textSm, $white);
 }
 
+h5{
+	@include titulos($textXs, $secondaryColor);
+}
+
+
+
 body{
 	background-image: url(../img/background.jpg);
 	background-repeat: repeat;
